@@ -31,6 +31,10 @@ import rosegraphics as rg
 window = rg.TurtleWindow()
 ronald = rg.SimpleTurtle()
 connor = rg.SimpleTurtle()
+ronald.speed = 100
+connor.speed = 100
+ronald.pen = rg.Pen('red', 10)
+connor.pen = rg.Pen('blue', 1)
 
 for k in range(8):
     ronald.forward(100)
@@ -42,5 +46,12 @@ for k in range(8):
     ronald.right(45)
     ronald.forward(100)
     ronald.pen_down()
+
+connor.backward(40)
+connor.left(90)
+connor.forward(125)
+for k in range(500):
+    connor.left(91)
+    connor.forward(k)
 
 window.close_on_mouse_click()
