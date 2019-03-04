@@ -50,7 +50,7 @@ for k in range(8):
 connor.backward(40)
 connor.left(90)
 connor.forward(125)
-for k in range(500):
+for k in range(250):
     connor.left(91)
     connor.forward(k)
 
