@@ -48,6 +48,7 @@ larry = rg.SimpleTurtle()
 larry.pen = rg.Pen('blue', 1)
 point = rg.Point(100, -40)
 
+larry.left(90)
 larry.forward(200)
 larry.pen_up()
 larry.go_to(point)
@@ -55,7 +56,7 @@ larry.pen_down()
 
 larry.pen = rg.Pen('green', 10)
 
-larry.right(90)
+larry.right(180)
 larry.forward(150)
 
 window.close_on_mouse_click()
