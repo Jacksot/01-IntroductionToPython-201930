@@ -32,7 +32,7 @@ window = rg.TurtleWindow()
 ronald = rg.SimpleTurtle()
 connor = rg.SimpleTurtle()
 ronald.speed = 100
-connor.speed = 100
+connor.speed = 500
 ronald.pen = rg.Pen('red', 10)
 connor.pen = rg.Pen('blue', 1)
 
